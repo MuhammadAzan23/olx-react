@@ -1,0 +1,86 @@
+.nav-link>svg:hover{
+    fill: #3a77ff;;
+}
+@media (min-width: 1200px){
+    .css-1oqqzyl-MuiContainer-root {
+    max-width: 1180px !important;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}}
+.drop-down{
+    display: flex;
+    align-items: center;
+    border: 2px solid #002f34;
+    border-radius: 4px;
+    /* outline: 2px red; */
+    height: 48px;
+    padding: 2px 0px 2px 10px;
+}
+.dropdown-toggle::after {
+    /* display: inline-block; */
+    margin-left: 8.255em !important;
+}
+.search{
+    border: 2px solid #002f34;
+        border-radius: 4px;
+        height: 48px;
+display: flex;
+align-items: center;
+max-width: 481px;
+
+}
+.search>input{
+    text-overflow: ellipsis;
+    margin-left: 13px;
+    min-width: 381px;
+    height: 44px;
+    background: none;
+    border: none;
+    outline: none;
+}
+.icon{
+    height: 48px;
+    width: 48px;
+    background-color: #002f34;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+.logins>p{
+    display: inline;
+    color: #002f34;
+    font-weight: 700;
+}
+sell>svg{
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.sell{
+    margin-left: -75px;
+    text-align: center;
+    font-size: 14px;
+    /* padding-left: 20px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* gap: 10px; */
+}
+nav{
+    position: fixed;
+}
+.ee{
+    background-color: white !important;
+    box-shadow: 0px 6px 10px -2px rgba(0,0,0,0.56)  !important;
+-webkit-box-shadow: 0px 6px 10px -2px rgba(0,0,0,0.56)  !important;
+-moz-box-shadow: 0px 6px 10px -2px rgba(0,0,0,0.56)  !important ;
+
+}
+.login{
+    color: black;
+    border: none;
+    outline: none;
+    padding: 0px;
+  }
+  .cart{
+    margin-left: 20px;
+  }

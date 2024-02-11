@@ -1,0 +1,24 @@
+.categories{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 25px;
+margin: auto;
+    margin-top: 0px;
+    height: 400px;
+    width: 1024px;
+}
+.cat{
+    height: 116px;
+    width: 116px;
+}
+.cat>img{
+    width: 88px;
+    height: 88px;
+}
+.title{
+    font-size: 26px;
+    margin: 20px auto;
+    width: 1024px;
+}
