@@ -4,13 +4,13 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, } 
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAdIAViR-QQ8ezfktjU0zdIlahhDrKZOfA",
-  authDomain: "fire-base-e703c.firebaseapp.com",
-  projectId: "fire-base-e703c",
-  storageBucket: "fire-base-e703c.appspot.com",
-  messagingSenderId: "648516897593",
-  appId: "1:648516897593:web:da8fbd86673a1e612a36e8",
-  measurementId: "G-NK0VFMXF07"
+  apiKey: "AIzaSyAx9dZP8oFPaf_yV-ik4WZ35rTyj_d-6Ek",
+  authDomain: "olx-app-c9ce0.firebaseapp.com",
+  projectId: "olx-app-c9ce0",
+  storageBucket: "olx-app-c9ce0.appspot.com",
+  messagingSenderId: "519244245567",
+  appId: "1:519244245567:web:512e56f97948700f8ba68a",
+  measurementId: "G-EZE6JLYRWR"
 };
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
